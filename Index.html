@@ -4,30 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Imaginary Dance</title>
   </head>
   <body>
     <div class="main">
-      <div class="home-section">
-        <header>
-          <nav>
-            <div class="logo">
-              <img src="./image/logo.png" alt="logo" />
-            </div>
-            <div class="nav-hamburger">
-              <img src="./image/button.png" class="hamburger" alt="" />
-            </div>
-            <div class="menu-icons">
-              <ul>
+      <header>
+        <div class="top-header">
+          <ul class="top-header-list">
+            <li>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li><a href="">English</a></li>
+            <li><a href="Index.html">My Page</a></li>
+            <li><a href="">Logout</a></li>
+          </ul>
+        </div>
+        <nav>
+          <div class="modal">
+            <img src="./Image/Enabled.svg" class="close" alt="closeTag" />
+            <div class="modal-body">
+              <ul class="modal-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href=".feature">Feature</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="#">Feature</a></li>
               </ul>
             </div>
-          </nav>
-        </header>
-        <section class="home" id="home-bg">
+          </div>
+          <div class="logo">
+            <img src="./image/logo.png" class="logo-main" alt="logo" />
+          </div>
+          <div class="nav-hamburger">
+            <img src="./image/button.png" class="hamburger" alt="menu-bar" />
+          </div>
+          <div class="menu-icons">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Feature</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="home" id="home-bg">
+        <div class="home-container">
           <div class="dance-logo">
             <img
               src="https://img.icons8.com/ios-filled/100/000000/ballroom-dance.png"
@@ -53,74 +77,124 @@
               heart, we know the other.
             </p>
           </div>
-        </section>
-      </div>
-      <div class="main-program">
-        <section class="home" id="home2">
-          <div class="program-title">
-            <h3>Dance Guide</h3>
-          </div>
-          <div class="border"></div>
-          <div class="program-items">
-            <ul>
-              <li>
-                <img
-                  src="https://img.icons8.com/color/100/000000/ballerina-full-body.png"
-                 alt="logo"/>
-                <p>
-                  Nobody cares if you can’t dance well. Just get up and dance.
-                  Great dancers are great because of their passion.
-                </p>
-              </li>
-              <li>
-                <img
-                  src="https://img.icons8.com/color/96/000000/dancing-party.png"
-                />
-                <p>
-                  To dance is to be out of yourself. Larger, more beautiful,
-                  more powerful… This is power, it is glory on earth and it is
-                  yours for the taking.
-                </p>
-              </li>
-              <li>
-                <img
-                  src="https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/100/000000/external-dancer-celebration-photo3ideastudio-lineal-color-photo3ideastudio.png"
-                />
-                <p>
-                  Those who were seen dancing were thought to be insane by those
-                  who could not hear the music.
-                </p>
-              </li>
-              <li>
-                <img src="https://img.icons8.com/officel/80/000000/tango.png" />
-                <p>
-                  “Hand in hand, on the edge of the sand, they danced by the
-                  light of the moon.”
-                </p>
-              </li>
-              <li>
-                <img src="https://img.icons8.com/dusk/100/000000/dancing.png" />
-                <p>
-                  Dance for yourself. If someone understands, good. If not, no
-                  matter.
-                </p>
-              </li>
-            </ul>
-            <div class="program-button-container">
-              <button type="submit" class="program-button">See More</button>
-            </div>
-          </div>
-          <div class="program-link">
-            <a href="#">See More</a>
-          </div>
-        </section>
-      </div>
-      <section >
-        <h4>ANt</h4>
-        <div class="feature">
         </div>
       </section>
+      <section class="home" id="home2">
+        <div class="program-title">
+          <h2>Dance Guide</h2>
+        </div>
+        <div class="program-items">
+          <ul>
+            <li>
+              <img
+                src="https://img.icons8.com/color/100/000000/ballerina-full-body.png"
+                alt="logo"
+              />
+              <p>
+                Nobody cares if you can’t dance well. Just get up and dance.
+                Great dancers are great because of their passion.
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/color/96/000000/dancing-party.png"
+                alt="logo"
+              />
+              <p>
+                To dance is to be out of yourself. Larger, more beautiful, more
+                powerful… This is power, it is glory on earth and it is yours
+                for the taking.
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/100/000000/external-dancer-celebration-photo3ideastudio-lineal-color-photo3ideastudio.png"
+                alt="logo"
+              />
+              <p>
+                Those who were seen dancing were thought to be insane by those
+                who could not hear the music.
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/officel/80/000000/tango.png"
+                alt="logo"
+              />
+              <p>
+                “Hand in hand, on the edge of the sand, they danced by the light
+                of the moon.”
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/dusk/100/000000/dancing.png"
+                alt="logo"
+              />
+              <p>
+                Dance for yourself. If someone understands, good. If not, no
+                matter.
+              </p>
+            </li>
+          </ul>
+          <div class="program-button-container">
+            <button type="submit" class="program-button"><span>See More</span></button>
+          </div>
+        </div>
+        <div class="program-link">
+          <a href="#">See More</a>
+        </div>
+      </section>
+      <section class="feature-section">
+        <h2>Best Dancer's</h2>
+        <ul class="feature">
+        </ul>
+       <div class="showcontainer">
+        <div class="showMore">
+         <span> More</span>
+        </div>
+       </div>
+      </section>
+      <section class="partners">
+        <h2>Partners</h2>
+        <div class="partner">
+          <div class="partner-image">
+            <img src="./image/BAFTA_logo.svg" alt="logo" />
+          </div>
+          <div class="partner-image">
+            <img src="./image/Disney_Channel_logo.svg" alt="logo" />
+          </div>
+          <div class="partner-image">
+            <img src="./image/Michael_Kors_logo.svg" alt="logo" />
+          </div>
+          <div class="partner-image">
+            <img src="./image/Zapier_logo.svg" alt="logo" />
+          </div>
+          <div class="partner-image">
+            <img src="./image/Konami_logo.svg" alt="logo" />
+          </div>
+          <div class="partner-image">
+            <img src="./image/Capcom_logo.svg" alt="logo" />
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-info">
+          <div>
+            <img src="./image/logo.png" alt="Logo" />
+          </div>
+          <div class="footer-title">
+            <h6>2021 Dance Meet. All Rights Reserved.</h6>
+            <p>
+              Imaginary dance is all about bring happiness to human life. The
+              Imaginary Dance name and logo are used under the limited license
+              granted by world dance authorities
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="index.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

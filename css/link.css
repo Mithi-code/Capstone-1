@@ -1,0 +1,93 @@
+/* link interaction */
+
+ nav a {
+  color: #ec5242;
+  border: none;
+  margin: 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  font: bold 18px sans-serif;
+  background: #fff;
+  text-decoration: none;
+  -webkit-transition: background 1s; 
+  transition: background 1s; 
+}
+a:hover {
+  background: #f0f5f2;
+}
+/* Button interaction */
+button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.showMore {
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .showMore span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .showMore span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .showMore:hover span {
+    padding-right: 25px;
+  }
+  
+  .showMore:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

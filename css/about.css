@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Poppins:wght@700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url(link.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.home-section {
+  width: 360px;
+  margin: auto;
+}
+
+.top-header {
+  width: 100%;
+  height: 30px;
+  background-color: #272a31;
+}
+
+.top-header-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.top-header-list li {
+  margin: 0 20px;
+}
+.top-header-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-header i {
+  width: 15px;
+  height: 15px;
+}
+
+nav {
+  width: 360px;
+  height: 80px;
+  background: #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 999;
+  top: 0;
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.modal-menu {
+  list-style-type: none;
+}
+
+.modal-menu li {
+  padding: 5px;
+  border-bottom: 2px solid #6f6c6b;
+}
+
+.modal-menu a {
+  padding: 16px;
+  font-size: 32px;
+  width: 227px;
+  left: 0;
+  top: 8px;
+  text-decoration: none;
+  color: #272a31;
+  font-weight: 700;
+}
+
+.modal .close {
+  margin: 10px;
+  width: 55px;
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+
+.logo img {
+  width: 200px;
+  height: 80px;
+}
+
+.logo img:hover {
+  transition: 0.5s;
+  transform: rotate(360deg);
+}
+
+.hamburger {
+  width: 40px;
+  margin: 20px;
+}
+
+.menu-icons {
+  display: none;
+}
+
+.menu-icons a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.menu-icons ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-right: 50px;
+}
+
+.menu-icons li {
+  padding: 3px;
+  color: #272a31;
+}
+
+.menu-icons a:hover {
+  color: #ec5242;
+}
+
+#home-bg {
+  background: #272a31;
+}
+
+.home {
+  padding: 15px;
+  margin: auto;
+  background: #272a31;
+}
+
+.dance-logo {
+  margin-top: 90px;
+}
+
+.title {
+  margin-top: 30px;
+  color: #ec5242;
+  font-size: 15px;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home-info p {
+  font-size: 17px;
+  margin-top: 40px;
+  color: #d3d3d3;
+  border: 3px solid #ec5242;
+  padding: 8px;
+  border-radius: 13px;
+}
+
+.home-info-2 p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ec5242;
+  border: 1px solid #272a31;
+  padding: 10px;
+}
+
+.dance-quotes {
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #d3d3d3;
+  font-size: 20px;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.dance-quotes p {
+  padding: 10px;
+  border: 2px solid #404040;
+  border-radius: 15px;
+  background-color: #d3d3d3;
+}
+
+.dance-quotes > div {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.dance-quotes > div img {
+  width: 70%;
+}
+
+.dance-section {
+  border: 1px solid #d3d3d3;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dance-info {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #fff;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 340px;
+  height: 189px;
+  background-color: #ec5342;
+  background-image: url(./image/dance.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+}
+
+.partners {
+  height: 200px;
+  width: 100%;
+  background-color: #40404065;
+  text-align: center;
+  color: #272a31;
+}
+
+.partner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px 120px;
+}
+
+.partner img {
+  width: 60%;
+}
+
+.footer-info {
+  display: flex;
+  width: 100%;
+}
+
+.footer-info img {
+  width: 200px;
+  padding: 30px;
+}
+
+h6 {
+  font-size: 16px;
+  color: #272a31;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .home-section {
+    width: 100%;
+  }
+
+  .top-header {
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .footer-title p {
+    display: none;
+  }
+
+  .dance-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-section {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .border {
+    margin-left: 47%;
+  }
+}
