@@ -175,6 +175,7 @@ h2 {
   border: 1px solid #272a31;
   padding: 10px;
 }
+
 .program-title {
   font-size: 20px;
   text-align: center;
@@ -183,8 +184,6 @@ h2 {
 }
 
 .program-items li {
-  display: grid;
-  gap: 20px;
   border: 1px solid #d3d3d3;
   padding: 5px;
   list-style: none;
@@ -252,7 +251,6 @@ h2 {
   list-style: none;
   margin: 20px;
   display: flex;
-  margin: 10px;
 }
 
 .list-image {
@@ -269,6 +267,7 @@ h2 {
 .list-info {
   padding: 5px;
 }
+
 .list-image img:hover {
   transform: scale(1.1);
 }
@@ -325,11 +324,6 @@ h2 {
 .footer-info img {
   width: 200px;
   padding: 30px;
-}
-
-h6 {
-  font-size: 16px;
-  color: #272a31;
 }
 
 .footer-title {

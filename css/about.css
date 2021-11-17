@@ -31,6 +31,23 @@
 .top-header-list li {
   margin: 0 20px;
 }
+
+.modal-menu a {
+  padding: 16px;
+  font-size: 32px;
+  width: 227px;
+  left: 0;
+  top: 8px;
+  text-decoration: none;
+  color: #272a31;
+  font-weight: 700;
+}
+
+.menu-icons a {
+  text-decoration: none;
+  color: #272a31;
+}
+
 .top-header-list li a {
   color: #fff;
   text-decoration: none;
@@ -73,17 +90,6 @@ nav {
   border-bottom: 2px solid #6f6c6b;
 }
 
-.modal-menu a {
-  padding: 16px;
-  font-size: 32px;
-  width: 227px;
-  left: 0;
-  top: 8px;
-  text-decoration: none;
-  color: #272a31;
-  font-weight: 700;
-}
-
 .modal .close {
   margin: 10px;
   width: 55px;
@@ -109,11 +115,6 @@ nav {
 
 .menu-icons {
   display: none;
-}
-
-.menu-icons a {
-  text-decoration: none;
-  color: #272a31;
 }
 
 .menu-icons ul {
