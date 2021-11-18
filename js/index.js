@@ -11,7 +11,7 @@ const project = [
     hedaer: 'Hrithik Roshan',
     header2: 'Bollywood Actor and Dacncer',
     description:
-      'Hrithik Roshan is an Indian film actor. He id known for his versatility and work ethic. He is also very well known for his great dramatic range. He is considered as the best dancer in Bollywood. He is just like a machine, a robot. It seems as if he can do anything. People say that He became the dance and not a dancer.',
+      'Hrithik Roshan is an Indian film actor. He id known for his versatility and work ethic. He is also very well known for his great dramatic range. He is considered as the best dancer in Bollywood. He is just like a machine, a robot.',
     image: './image/hr.jfif',
     alt: 'dance-image',
   },

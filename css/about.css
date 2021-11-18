@@ -9,14 +9,8 @@
   font-family: 'Lato', sans-serif;
 }
 
-.home-section {
-  width: 360px;
-  margin: auto;
-}
-
 .top-header {
   width: 100%;
-  height: 30px;
   background-color: #272a31;
 }
 
@@ -26,15 +20,17 @@
   justify-content: flex-end;
   padding: 3px;
   text-decoration: none;
+  margin-right: 50px;
 }
 
 .top-header-list li {
-  margin: 0 20px;
+  margin: 0 10px;
+  font-size: 12px;
 }
 
 .modal-menu a {
   padding: 16px;
-  font-size: 32px;
+  font-size: 20px;
   width: 227px;
   left: 0;
   top: 8px;
@@ -104,7 +100,7 @@ nav {
 }
 
 .partner img {
-  width: 60%;
+  width: 50%;
 }
 
 .footer-info img {
@@ -134,12 +130,10 @@ nav {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
   margin-right: 50px;
 }
 
 .menu-icons li {
-  padding: 3px;
   color: #272a31;
 }
 
@@ -158,24 +152,23 @@ nav {
 }
 
 .dance-logo {
-  margin-top: 90px;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  padding: 0 40px;
 }
 
 .title {
-  margin-top: 30px;
+  margin-top: 20px;
   color: #ec5242;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
-}
-
-.title h2 {
-  font-size: 25px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .home-info p {
   font-size: 17px;
-  margin-top: 40px;
+  margin-top: 30px;
   color: #d3d3d3;
   border: 3px solid #ec5242;
   padding: 8px;
@@ -257,25 +250,21 @@ nav {
 .footer-info {
   display: flex;
   width: 100%;
-}
-
-h6 {
-  font-size: 16px;
-  color: #272a31;
-}
-
-.footer-title {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-@media (max-width: 767px) {
-  .home-section {
-    width: 100%;
-  }
+h6 {
+  font-size: 16px;
+}
 
+.footer-title {
+  text-align: center;
+  color: #272a31;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
   .top-header {
     display: none;
   }
@@ -303,10 +292,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  .home-section {
-    width: 100%;
-  }
-
   nav {
     width: 100%;
   }
@@ -321,7 +306,24 @@ h6 {
     align-items: center;
   }
 
-  .border {
-    margin-left: 47%;
+  .title {
+    font-size: 35px;
+  }
+
+  .hometext {
+    padding: 3% 18%;
+    text-align: center;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  .footer-title {
+    color: #d3d3d3;
   }
 }
