@@ -67,9 +67,7 @@ function displayTags(imgSrc, heading, subheader, paragraph, text) {
 function renderHTML(arr) {
   return arr
     .map((elem) => {
-      const { 
-        hedaer, header2, description, image, alt 
-      } = elem;
+      const { hedaer, header2, description, image, alt } = elem;
       return displayTags(image, hedaer, header2, description, alt);
     })
     .join('');
@@ -84,7 +82,7 @@ const render = (arr) => {
   }
 };
 
-let check = () => {
+const check = () => {
   if (window.innerWidth < 768) {
     list.innerHTML = '';
     render(newArr);
