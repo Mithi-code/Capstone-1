@@ -67,7 +67,9 @@ function displayTags(imgSrc, heading, subheader, paragraph, text) {
 function renderHTML(arr) {
   return arr
     .map((elem) => {
-      const { hedaer, header2, description, image, alt } = elem;
+      const { 
+        hedaer, header2, description, image, alt 
+      } = elem;
       return displayTags(image, hedaer, header2, description, alt);
     })
     .join('');
@@ -82,8 +84,6 @@ const render = (arr) => {
   }
 };
 
-window.onresize = check;
-
 let check = () => {
   if (window.innerWidth < 768) {
     list.innerHTML = '';
@@ -94,6 +94,8 @@ let check = () => {
   }
 };
 check();
+
+window.onresize = check;
 
 const show = document.querySelector('.showMore');
 show.addEventListener('click', () => {
