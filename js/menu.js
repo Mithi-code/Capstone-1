@@ -4,11 +4,17 @@ const loginBtn = document.querySelector('.hamburger');
 
 closeBtn.addEventListener('click', () => {
   modal.style.display = 'none';
-  loginBtn.style.display = 'block';
+  document.querySelector('body').style.overflow = 'auto';
 });
 
 loginBtn.addEventListener('click', () => {
-  loginBtn.style.display = 'none';
   modal.style.display = 'block';
-  document.querySelector('body').style.overflow = 'none';
+  document.querySelector('body').style.overflow = 'unset';
+});
+
+document.querySelectorAll('.modal a').forEach((a) => {
+  a.addEventListener('click', () => {
+    modal.style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
+  });
 });
