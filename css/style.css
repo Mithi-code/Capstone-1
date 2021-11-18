@@ -240,6 +240,10 @@ h2 {
   padding: 5px;
 }
 
+.list-info p {
+  font-size: 11px;
+}
+
 .program-items li p {
   font-size: 13px;
   padding: 5px;
@@ -287,10 +291,6 @@ h2 {
 
 .list-info {
   padding: 5px;
-}
-
-.list-info p {
-  font-size: 11px;
 }
 
 .list-image img:hover {
@@ -422,15 +422,12 @@ h2 {
 
   .title {
     font-size: 50px;
+    text-align: center;
   }
 
   .home {
     width: 100%;
     padding: 30px 100px;
-  }
-
-  .title {
-    text-align: center;
   }
 
   .program-items ul {
