@@ -31,6 +31,29 @@
 .top-header-list li {
   margin: 0 20px;
 }
+
+.modal-menu a {
+  padding: 16px;
+  font-size: 32px;
+  width: 227px;
+  left: 0;
+  top: 8px;
+  text-decoration: none;
+  color: #272a31;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.menu-icons a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.program-link a {
+  color: #d3d3d3;
+  background-color: #272a31;
+}
+
 .top-header-list li a {
   color: #fff;
   text-decoration: none;
@@ -74,18 +97,6 @@ nav {
   border-bottom: 2px solid #6f6c6b;
 }
 
-.modal-menu a {
-  padding: 16px;
-  font-size: 32px;
-  width: 227px;
-  left: 0;
-  top: 8px;
-  text-decoration: none;
-  color: #272a31;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-}
-
 .modal .close {
   margin: 10px;
   width: 55px;
@@ -96,11 +107,6 @@ nav {
 
 .menu-icons {
   display: none;
-}
-
-.menu-icons a {
-  text-decoration: none;
-  color: #272a31;
 }
 
 .menu-icons ul {
@@ -125,6 +131,34 @@ nav {
   height: 80px;
 }
 
+.dance-logo img {
+  margin-top: 90px;
+  width: 100px;
+  height: 100px;
+}
+
+.list-image img {
+  width: 150px;
+  height: 150px;
+  height: auto;
+  padding: 5px;
+}
+
+.partner img {
+  width: 60%;
+}
+
+.footer-info img {
+  width: 200px;
+  padding: 30px;
+}
+
+.program-items li img {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
 .logo img:hover {
   transition: 0.5s;
   transform: rotate(360deg);
@@ -134,12 +168,6 @@ nav {
   padding: 15px;
   width: 360px;
   margin: auto;
-}
-
-.dance-logo img {
-  margin-top: 90px;
-  width: 100px;
-  height: 100px;
 }
 
 #home2 {
@@ -168,6 +196,7 @@ h2 {
   margin-top: 40px;
   color: #272a31;
 }
+
 .home-info-2 p {
   margin-top: 30px;
   font-size: 20px;
@@ -192,14 +221,14 @@ h2 {
   margin-top: 10px;
 }
 
-.program-items li:hover {
-  transform: scale(1.1);
+.feature li {
+  list-style: none;
+  margin: 20px;
+  display: flex;
 }
 
-.program-items li img {
-  width: 70px;
-  height: 70px;
-  padding: 5px;
+.program-items li:hover {
+  transform: scale(1.1);
 }
 
 .program-items li p {
@@ -226,11 +255,6 @@ h2 {
   text-align: center;
 }
 
-.program-link a {
-  color: #d3d3d3;
-  background-color: #272a31;
-}
-
 .feature-section {
   background-color: #d3d3d3;
 }
@@ -247,20 +271,7 @@ h2 {
   padding: 10px 150px;
 }
 
-.feature li {
-  list-style: none;
-  margin: 20px;
-  display: flex;
-}
-
 .list-image {
-  padding: 5px;
-}
-
-.list-image img {
-  width: 150px;
-  height: 150px;
-  height: auto;
   padding: 5px;
 }
 
@@ -312,18 +323,9 @@ h2 {
   padding: 10px 120px;
 }
 
-.partner img {
-  width: 60%;
-}
-
 .footer-info {
   display: flex;
   width: 100%;
-}
-
-.footer-info img {
-  width: 200px;
-  padding: 30px;
 }
 
 .footer-title {

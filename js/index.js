@@ -72,8 +72,8 @@ function renderHTML(arr) {
     })
     .join('');
 }
-let newArr = project.slice(0, 2);
-let list = document.querySelector('.feature');
+const newArr = project.slice(0, 2);
+const list = document.querySelector('.feature');
 const render = (arr) => {
   if (arr.length !== 4) {
     list.innerHTML = renderHTML(arr);
@@ -84,7 +84,7 @@ const render = (arr) => {
 
 window.onresize = check;
 
-function check() {
+let check = () => {
   if (window.innerWidth < 768) {
     list.innerHTML = '';
     render(newArr);
@@ -92,8 +92,7 @@ function check() {
     list.innerHTML = '';
     render(project);
   }
-}
-
+};
 check();
 
 const show = document.querySelector('.showMore');

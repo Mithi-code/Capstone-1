@@ -103,6 +103,19 @@ nav {
   height: 80px;
 }
 
+.partner img {
+  width: 60%;
+}
+
+.footer-info img {
+  width: 200px;
+  padding: 30px;
+}
+
+.dance-quotes > div img {
+  width: 70%;
+}
+
 .logo img:hover {
   transition: 0.5s;
   transform: rotate(360deg);
@@ -201,10 +214,6 @@ nav {
   align-items: center;
 }
 
-.dance-quotes > div img {
-  width: 70%;
-}
-
 .dance-section {
   border: 1px solid #d3d3d3;
   font-size: 20px;
@@ -225,7 +234,7 @@ nav {
   width: 340px;
   height: 189px;
   background-color: #ec5342;
-  background-image: url(./image/dance.jfif);
+  background-image: url(../image/dance-1.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-blend-mode: multiply;
@@ -245,18 +254,9 @@ nav {
   padding: 10px 120px;
 }
 
-.partner img {
-  width: 60%;
-}
-
 .footer-info {
   display: flex;
   width: 100%;
-}
-
-.footer-info img {
-  width: 200px;
-  padding: 30px;
 }
 
 h6 {
